@@ -17,9 +17,31 @@
 <script>
     $(document).ready(function() {
         $('#myImage').click(function() {
-            $('#myImage').httr("src", "https://www.petfinder.com/wp-content/uploads/2012/11/122163343-conditioning-dog-loud-noises-632x475.jpg");
+            $('#myImage').attr("src", "https://www.petfinder.com/wp-content/uploads/2012/11/122163343-conditioning-dog-loud-noises-632x475.jpg");
         });
     });
+</script>
+<br>
+
+<button><div id="red" type="button" onclick="red()">red</div></button>
+<button><div id="green" type="button" onclick="green()">green</div></button>
+<button><div id="blue" type="button" onclick="blue()">blue</div></button>
+    <script>
+        $(document).ready(function() {
+            $("#red").click(function() {
+                $("body").css("background-color","red");
+            });
+        });
+        $(document).ready(function() {
+            $("#green").click(function() {
+                $("body").css("background-color","green");
+            });
+        });
+        $(document).ready(function() {
+            $("#blue").click(function() {
+                $("body").css("background-color","blue"); 
+            });
+        });
 </script>
 
 </body>
