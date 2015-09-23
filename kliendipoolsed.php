@@ -8,5 +8,7 @@
 
 <button type="button" onclick="alert('Tere maailm')">Tere maailm!</button>
 
+<a href="http://www.khk.ee" onclick="alert('Tere maailm')">Tere maailm!</a>
+
 </body>
 </html>
