@@ -17,7 +17,7 @@
 <script>
     $(document).ready(function() {
         $('#myImage').click(function() {
-            $('#myImage').attr("src", "https://www.petfinder.com/wp-content/uploads/2012/11/122163343-conditioning-dog-loud-noises-632x475.jpg");
+            $('#myImage').httr("src", "https://www.petfinder.com/wp-content/uploads/2012/11/122163343-conditioning-dog-loud-noises-632x475.jpg");
         });
     });
 </script>
