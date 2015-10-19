@@ -44,5 +44,16 @@
         });
 </script>
 
+<script>
+    $(document).ready(function () {
+        $("#extra").click(function () {
+            $("body").css("background-color", $("#Custom").val())
+        });
+    });
+</script>
+<p><label><input type="text" id="Custom" value=""></label></p>
+<button id="extra">Custm color!</button>
+<br>
+
 </body>
 </html>
